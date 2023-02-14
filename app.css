@@ -1,0 +1,116 @@
+/* Define a style for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Define a style for the header */
+header {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 10px;
+  }
+header img {
+    display: block;
+    margin: 0 auto;
+}
+  /* Define a style for the navigation links */
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+  }
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+header nav ul li {
+    margin-right: 10px;
+    }
+  
+/* Define a style for the main section */
+main {
+    padding: 20px;
+  }
+  
+  /* Define a style for the section headings */
+main h2 {
+    margin-top: 50px;
+  }
+  
+  /* Define a style for the table */
+main table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Define a style for the table cells */
+main table th, main table td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Define a style for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+.grid-container {
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+  }
+.player-list {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    overflow-x: auto;
+}
+.player {
+    /*margin-top: 100px;*/
+    overflow-y: clip;
+    width: 150px;
+    height: 200px;
+    margin-right: 10px;
+    }
+.player p {
+        text-align: center;
+        font-size: 14px;
+        font-family: Arial, sans-serif;
+        color: rgb(26, 103, 115);
+    }
+.player img {
+       object-fit: cover ;
+       width: 150px;
+       height: 150px;
+    }
+
+.larger-text {
+        font-size: 1.5em;
+        line-height: 100px;
+        font-family: 'Times New Roman';
+        font-weight: bold;
+    }
+.champs-image {
+        display: block;
+        margin: 0 auto;
+        width: 50em;
+    }
+.coed-text {
+        font-size: 1.5em;
+        line-height: 100px;
+        font-family: 'Times New Roman';
+        font-weight: bold;
+    }
+table tr:nth-child(odd) td{
+        background:rgb(138, 208, 255);
+    }
+table tr:nth-child(even) td{
+         background:rgb(223, 65, 65);
+    }
